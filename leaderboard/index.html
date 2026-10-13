@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meme Coin Tycoon leaderboard: top tycoons and biggest memecoins</title>
+<script>(function(){try{if(localStorage.getItem('mct_site_lang'))return;}catch(e){}var n=(navigator.languages&&navigator.languages[0]||navigator.language||'en').slice(0,2).toLowerCase();if(["fr", "es", "pt", "ru", "id", "ar"].indexOf(n)>=0)location.replace('../'+n+'/leaderboard/'+location.search+location.hash);})();</script><title>Meme Coin Tycoon leaderboard: top tycoons and biggest memecoins</title>
 <meta name="description" content="Live leaderboard of Meme Coin Tycoon: the richest players, the biggest memecoins, the top gainers and the newest coins, refreshed every hour.">
 <link rel="canonical" href="https://jeremstyke.github.io/memecointycoon/leaderboard/">
+<link rel="alternate" hreflang="en" href="https://jeremstyke.github.io/memecointycoon/leaderboard/"><link rel="alternate" hreflang="fr" href="https://jeremstyke.github.io/memecointycoon/fr/leaderboard/"><link rel="alternate" hreflang="es" href="https://jeremstyke.github.io/memecointycoon/es/leaderboard/"><link rel="alternate" hreflang="pt" href="https://jeremstyke.github.io/memecointycoon/pt/leaderboard/"><link rel="alternate" hreflang="ru" href="https://jeremstyke.github.io/memecointycoon/ru/leaderboard/"><link rel="alternate" hreflang="id" href="https://jeremstyke.github.io/memecointycoon/id/leaderboard/"><link rel="alternate" hreflang="ar" href="https://jeremstyke.github.io/memecointycoon/ar/leaderboard/"><link rel="alternate" hreflang="x-default" href="https://jeremstyke.github.io/memecointycoon/leaderboard/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeremstyke.github.io/memecointycoon/leaderboard/">
 <meta property="og:title" content="Meme Coin Tycoon leaderboard: top tycoons and biggest memecoins">
@@ -19,16 +20,18 @@
 </head>
 <body>
 <div class="wrap">
-<header class="top"><a class="brand" href="../"><img src="../logo.svg" width="38" height="38" alt="">Meme Coin Tycoon</a><nav class="nav" aria-label="Main"><a href="../">Home</a><a href="../guide/">How to play</a><a href="../leaderboard/" aria-current=page>Leaderboard</a><a href="../faq/">FAQ</a><a class="play" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play</a></nav></header>
+<div class="langbar"><a href="../leaderboard/" lang="en" data-l="en" aria-current=page>English</a><a href="../fr/leaderboard/" lang="fr" data-l="fr">Français</a><a href="../es/leaderboard/" lang="es" data-l="es">Español</a><a href="../pt/leaderboard/" lang="pt" data-l="pt">Português</a><a href="../ru/leaderboard/" lang="ru" data-l="ru">Русский</a><a href="../id/leaderboard/" lang="id" data-l="id">Bahasa Indonesia</a><a href="../ar/leaderboard/" lang="ar" data-l="ar">العربية</a></div><header class="top"><a class="brand" href="../"><img src="../logo.svg" width="38" height="38" alt="">Meme Coin Tycoon</a><nav class="nav" aria-label="Main"><a href="../">Home</a><a href="../guide/">How to play</a><a href="../leaderboard/" aria-current=page>Leaderboard</a><a href="../faq/">FAQ</a><a class="play" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play</a></nav></header>
 <main>
 <div class="pagehead"><div class="live">Live from the game</div><h1>Leaderboard</h1><p class="sub">The richest tycoons and the hottest coins right now. Net worth = cash + everything you own.</p><p class="muted" id="updated"></p></div>
-<div class="stats"><div class="stat"><b id="s-players">-</b><span>players</span></div><div class="stat"><b id="s-coins">-</b><span>memecoins</span></div><div class="stat"><b id="s-chains">-</b><span>blockchains</span></div><div class="stat"><b id="s-trades">-</b><span>trades in 24 h</span></div></div>
-<section><div class="cols"><div class="card"><h3>🏆 Top tycoons</h3><div id="tycoons"></div></div><div class="card"><h3>💰 Biggest coins</h3><div id="top-coins"></div></div></div></section>
+<div class="stats"><div class="stat"><b id="s-players">-</b><span>players</span></div><div class="stat"><b id="s-coins">-</b><span>memecoins launched</span></div><div class="stat"><b id="s-chains">-</b><span>blockchains</span></div><div class="stat"><b id="s-trades">-</b><span>trades in 24 h</span></div></div>
+<section><div class="cols"><div class="card"><h3>Top tycoons</h3><div id="tycoons"></div></div><div class="card"><h3>💰 Biggest coins</h3><div id="top-coins"></div></div></div></section>
 <section><div class="cols"><div class="card"><h3>🚀 Top gainers 24 h</h3><div id="gainers"></div></div><div class="card"><h3>🆕 Newest coins</h3><div id="newest"></div></div></div></section>
 <section class="final"><h2>Want your name up there?</h2><a class="cta" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play on Telegram</a></section>
 </main>
-<footer><span>Made by <a href="https://t.me/jeremstyke">@jeremstyke</a> · <a href="https://t.me/memecointycoon">📰 @memecointycoon</a> · Virtual money only, no real value.</span><a href="https://dailyscoreapp.com/?src=memecointycoon&lang=en">⚽ Also by Jeremstyke: Daily Score</a></footer>
+<footer><span>Made by <a href="https://t.me/jeremstyke">@jeremstyke</a> · <a href="https://t.me/memecointycoon">📰 @memecointycoon</a> · Virtual money only, no real value.</span><a href="https://t.me/jeremstyke?direct">💬 Any question? Contact @jeremstyke</a></footer>
 </div>
+<script>window.MCT_T={"holder": "holder", "holders": "holders", "updated": "Updated", "hourly": "refreshed every hour", "nomove": "No big move in the last 24 hours.", "err": "Live data is loading slowly, open the game to see everything."};document.querySelectorAll('[data-l]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('mct_site_lang',a.dataset.l)}catch(e){}})});</script>
 <script src="../live.js" data-base="../"></script>
-<script src="https://jeremstyke.github.io/network.js" defer></script></body>
+<script src="https://jeremstyke.github.io/network.js" defer></script>
+</body>
 </html>
