@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meme Coin Tycoon: launch your own memecoin on Telegram</title>
+<script>(function(){try{if(localStorage.getItem('mct_site_lang'))return;}catch(e){}var n=(navigator.languages&&navigator.languages[0]||navigator.language||'en').slice(0,2).toLowerCase();if(["fr", "es", "pt", "ru", "id", "ar"].indexOf(n)>=0)location.replace('./'+n+'/'+location.search+location.hash);})();</script><title>Meme Coin Tycoon: launch your own memecoin on Telegram</title>
 <meta name="description" content="A free Telegram game: launch your own memecoin, create your own blockchain, trade, mine and stake with virtual money, and become the #1 tycoon.">
 <link rel="canonical" href="https://jeremstyke.github.io/memecointycoon/">
+<link rel="alternate" hreflang="en" href="https://jeremstyke.github.io/memecointycoon/"><link rel="alternate" hreflang="fr" href="https://jeremstyke.github.io/memecointycoon/fr/"><link rel="alternate" hreflang="es" href="https://jeremstyke.github.io/memecointycoon/es/"><link rel="alternate" hreflang="pt" href="https://jeremstyke.github.io/memecointycoon/pt/"><link rel="alternate" hreflang="ru" href="https://jeremstyke.github.io/memecointycoon/ru/"><link rel="alternate" hreflang="id" href="https://jeremstyke.github.io/memecointycoon/id/"><link rel="alternate" hreflang="ar" href="https://jeremstyke.github.io/memecointycoon/ar/"><link rel="alternate" hreflang="x-default" href="https://jeremstyke.github.io/memecointycoon/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeremstyke.github.io/memecointycoon/">
 <meta property="og:title" content="Meme Coin Tycoon: launch your own memecoin on Telegram">
@@ -19,41 +20,24 @@
 </head>
 <body>
 <div class="wrap">
-<div class="langbar"><a href="./" aria-current="page">English</a><a href="fr/">Français</a><a href="es/">Español</a><a href="ru/">Русский</a><a href="pt/">Português</a></div><header class="top"><a class="brand" href="./"><img src="./logo.svg" width="38" height="38" alt="">Meme Coin Tycoon</a><nav class="nav" aria-label="Main"><a href="./" aria-current=page>Home</a><a href="./guide/">How to play</a><a href="./leaderboard/">Leaderboard</a><a href="./faq/">FAQ</a><a class="play" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play</a></nav></header>
+<div class="langbar"><a href="./" lang="en" data-l="en" aria-current=page>English</a><a href="./fr/" lang="fr" data-l="fr">Français</a><a href="./es/" lang="es" data-l="es">Español</a><a href="./pt/" lang="pt" data-l="pt">Português</a><a href="./ru/" lang="ru" data-l="ru">Русский</a><a href="./id/" lang="id" data-l="id">Bahasa Indonesia</a><a href="./ar/" lang="ar" data-l="ar">العربية</a></div><header class="top"><a class="brand" href="./"><img src="./logo.svg" width="38" height="38" alt="">Meme Coin Tycoon</a><nav class="nav" aria-label="Main"><a href="./" aria-current=page>Home</a><a href="./guide/">How to play</a><a href="./leaderboard/">Leaderboard</a><a href="./faq/">FAQ</a><a class="play" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play</a></nav></header>
 <main>
 <div class="hero">
   <div><h1>Launch your own memecoin. Pump it to the moon.</h1><p class="sub">A free trading game on Telegram. Create a coin, build your own blockchain, trade with other players and become the #1 tycoon.</p><a class="cta" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play on Telegram</a><span class="note">Virtual money only: nothing to deposit, nothing to withdraw.</span></div>
-  <div class="phone" aria-label="Newest coins in the game"><div class="ph"><span>🆕 Newest coins</span><span class="cash">LIVE</span></div><div id="newest"><div class="coin"><span class="med" style="--c:#4ff0b7">🐸</span><div><b>$PEPE2</b></div><div class="p">$0.0155</div></div></div></div>
+  <div class="phone"><div class="ph"><span>🆕 Newest coins</span><span class="cash">LIVE</span></div><div id="newest"></div></div>
 </div>
-<section>
-  <div class="live">Live from the game</div>
-  <div class="stats"><div class="stat"><b id="s-players">-</b><span>players</span></div><div class="stat"><b id="s-coins">-</b><span>memecoins launched</span></div><div class="stat"><b id="s-chains">-</b><span>blockchains</span></div><div class="stat"><b id="s-trades">-</b><span>trades in 24 h</span></div></div>
-  <p class="muted" id="updated"></p>
-  <div class="cols" style="margin-top:22px"><div class="card"><h3>🏆 Biggest coins</h3><div id="top-coins"></div></div><div class="card"><h3>🚀 Top gainers 24 h</h3><div id="gainers"></div></div></div>
-</section>
+<section><div class="live">Live from the game</div><div class="stats"><div class="stat"><b id="s-players">-</b><span>players</span></div><div class="stat"><b id="s-coins">-</b><span>memecoins launched</span></div><div class="stat"><b id="s-chains">-</b><span>blockchains</span></div><div class="stat"><b id="s-trades">-</b><span>trades in 24 h</span></div></div><p class="muted" id="updated"></p>
+<div class="cols" style="margin-top:22px"><div class="card"><h3>🏆 Biggest coins</h3><div id="top-coins"></div></div><div class="card"><h3>🚀 Top gainers 24 h</h3><div id="gainers"></div></div></div></section>
 <section><h2>How it works</h2><ol class="steps"><li><h3>Launch your coin</h3><p>Pick a name, a ticker, a logo and a color. Your coin is live in ten seconds, on the blockchain you choose.</p></li><li><h3>Buy early</h3><p>Every buy pushes the price up, every sell pushes it down. The first buyers win the most.</p></li><li><h3>Share and climb</h3><p>Invite friends to buy your coin, watch it pump, graduate to the DEX and climb the leaderboard.</p></li></ol></section>
-<section><h2>Everything you can do</h2><div class="feats big">
-<div><span class="e">🐸</span><h3>Launch memecoins</h3><p>$500 per coin, up to 3 a day. Earn a creator fee on every trade.</p></div>
-<div><span class="e">⛓️</span><h3>Own a blockchain</h3><p>Create your chain for $3,000, set its fee and earn on every coin launched on it.</p></div>
-<div><span class="e">🌍</span><h3>Trade real cryptos</h3><p>Bitcoin, Ethereum, Solana and Toncoin at their real price.</p></div>
-<div><span class="e">⛏️</span><h3>Mine</h3><p>Build a rig, upgrade it and mine while you sleep. Watch the electricity bill.</p></div>
-<div><span class="e">🔒</span><h3>Stake</h3><p>Lock coins and get up to +50% more after 30 days.</p></div>
-<div><span class="e">⚡</span><h3>Long and short</h3><p>Futures with x2, x5 or x10 leverage. Big gains, big risks.</p></div>
-<div><span class="e">🎓</span><h3>Graduate to the DEX</h3><p>Pass a $10,000 market cap and win $2,000 as the creator.</p></div>
-<div><span class="e">📰</span><h3>Live news</h3><p>Celebrity tweets, whale dumps and hacks move the market.</p></div>
-<div><span class="e">👥</span><h3>Referral contest</h3><p>$500 per friend, plus daily, weekly and monthly prizes for the best referrers.</p></div>
-</div></section>
+<section><h2>Everything you can do</h2><div class="feats big"><div><span class="e">🐸</span><h3>Launch memecoins</h3><p>$500 per coin, up to 3 a day. Earn a creator fee on every trade.</p></div><div><span class="e">⛓️</span><h3>Own a blockchain</h3><p>Create your chain for $3,000, set its fee and earn on every coin launched on it.</p></div><div><span class="e">🌍</span><h3>Trade real cryptos</h3><p>Bitcoin, Ethereum, Solana and Toncoin at their real price.</p></div><div><span class="e">⛏️</span><h3>Mine</h3><p>Build a rig, upgrade it and mine while you sleep. Watch the electricity bill.</p></div><div><span class="e">🔒</span><h3>Stake</h3><p>Lock coins and get up to +50% more after 30 days.</p></div><div><span class="e">⚡</span><h3>Long and short</h3><p>Futures with x2, x5 or x10 leverage. Big gains, big risks.</p></div><div><span class="e">🎓</span><h3>Graduate to the DEX</h3><p>Pass a $10,000 market cap and win $2,000 as the creator.</p></div><div><span class="e">📰</span><h3>Live news</h3><p>Celebrity tweets, whale dumps and hacks move the market.</p></div><div><span class="e">👥</span><h3>Referral contest</h3><p>$500 per friend, plus daily, weekly and monthly prizes for the best referrers.</p></div></div></section>
 <section><h2>Top tycoons</h2><div class="card" style="max-width:560px"><div id="tycoons"></div><p class="muted"><a href="leaderboard/">See the full leaderboard →</a></p></div></section>
-<section><h2>Questions</h2>
-<div class="callout">💡 Everything in Meme Coin Tycoon is virtual: the cash, the coins, the blockchains and the prices. It has no real money value.</div>
-<details><summary>Is it free?</summary><p>Yes. The whole game is free. Telegram Stars only buy optional extras like promoting your coin.</p></details>
-<details><summary>Do I need a crypto wallet?</summary><p>No. The game runs inside Telegram. Open the bot, tap Play and you are trading.</p></details>
-<details><summary>How do I win?</summary><p>Grow your net worth: buy coins early, launch your own, own a blockchain, mine and stake. Your net worth is your cash plus everything you own.</p></details>
-<p><a href="faq/">Read the complete FAQ →</a> · <a href="guide/">How to play →</a></p></section>
+<section><h2>Questions</h2><div class="callout">💡 Everything in Meme Coin Tycoon is virtual: the cash, the coins, the blockchains and the prices. It has no real money value.</div><details><summary>Is it free?</summary><p>Yes. The whole game is free. Telegram Stars only buy optional extras like promoting your coin.</p></details><details><summary>Do I need a crypto wallet?</summary><p>No. The game runs inside Telegram. Open the bot, tap Play and you are trading.</p></details><details><summary>How do I win?</summary><p>Grow your net worth: buy coins early, launch your own, own a blockchain, mine and stake. Your net worth is your cash plus everything you own.</p></details><p><a href="faq/">Read the complete FAQ →</a> · <a href="guide/">How to play →</a> · <a href="https://t.me/jeremstyke?direct">💬 Contact @jeremstyke</a></p></section>
 <section class="final"><h2>Your coin could be the next to pump.</h2><a class="cta" href="https://t.me/Memecointycoonbot?start=src_site_en">🚀 Play on Telegram</a></section>
 </main>
-<footer><span>Made by <a href="https://t.me/jeremstyke">@jeremstyke</a> · <a href="https://t.me/memecointycoon">📰 @memecointycoon</a> · Virtual money only, no real value.</span><a href="https://dailyscoreapp.com/?src=memecointycoon&lang=en">⚽ Also by Jeremstyke: Daily Score</a></footer>
+<footer><span>Made by <a href="https://t.me/jeremstyke">@jeremstyke</a> · <a href="https://t.me/memecointycoon">📰 @memecointycoon</a> · Virtual money only, no real value.</span><a href="https://t.me/jeremstyke?direct">💬 Any question? Contact @jeremstyke</a></footer>
 </div>
+<script>window.MCT_T={"holder": "holder", "holders": "holders", "updated": "Updated", "hourly": "refreshed every hour", "nomove": "No big move in the last 24 hours.", "err": "Live data is loading slowly, open the game to see everything."};document.querySelectorAll('[data-l]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('mct_site_lang',a.dataset.l)}catch(e){}})});</script>
 <script src="./live.js" data-base="./"></script>
-<script src="https://jeremstyke.github.io/network.js" defer></script></body>
+<script src="https://jeremstyke.github.io/network.js" defer></script>
+</body>
 </html>
