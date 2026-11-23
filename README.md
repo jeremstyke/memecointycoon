@@ -37,11 +37,3 @@ Meme Coin Tycoon is a free trading game that runs inside Telegram as a mini app.
 
 The website is available in 🇬🇧 [English](https://jeremstyke.github.io/memecointycoon/), 🇫🇷 [Français](https://jeremstyke.github.io/memecointycoon/fr/), 🇪🇸 [Español](https://jeremstyke.github.io/memecointycoon/es/), 🇷🇺 [Русский](https://jeremstyke.github.io/memecointycoon/ru/) and 🇧🇷 [Português](https://jeremstyke.github.io/memecointycoon/pt/).
 
-## More by Jeremstyke
-
-- ⚽ [Daily Score](https://dailyscoreapp.com/?src=github_memecointycoon): the free football prediction game
-- 📚 [GramPedia](https://t.me/Grampedia_bot?start=src_github): the directory of Telegram channels, groups, bots and mini apps
-
----
-
-Made by [@jeremstyke](https://t.me/jeremstyke)
